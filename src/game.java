@@ -36,9 +36,10 @@ class JDrawPanel extends JPanel {
 
 //http://math.sgu.ru/sites/chairs/prinf/materials/java/lesson8.htm
 // Инициализация переменных проверка проверка
-        int Wd = (getWidth()-4)/One.size();
+       int Wd = (getWidth()-4)/One.size();
        int Hg = (getHeight()-30)/One.size();
         boolean ar[][] = new boolean[One.size()][One.size()];
+        //lk;lkl;k
         ar = One.getTable();
 
 // Установка атрибутов вывода

@@ -70,7 +70,7 @@ public class table
 
     public boolean getNeighbour(int k, int l, int i)
     {
-        switch (i)
+        switch (i)///
         {
             case 1:  return list[(size + k - 1) % size][(size + l - 1) % size];
             case 2:  return list[(size + k) % size][(size + l - 1) % size];
