@@ -8,15 +8,15 @@ public class iteration
 
     public iteration ()
     {
-        table model = new table();
+       model = new table();
     }
 
     public iteration (int size)
     {
-        table model = new table(size);
+       model = new table(size);
     }
 
-    public iteration (int size, boolean [][]ar)
+    public iteration (int size, boolean ar[][])
     {
         model = new table(size, ar) ;
     }
@@ -30,7 +30,10 @@ public class iteration
             System.out.println("");
         }
     }
-
+    public void setZnach(int k, int l, boolean f)
+    {
+        model.setZnach(k,l,f);
+    }
     public void Done()
     {
         table tmp = new table(model.getSize(),model.getTable());

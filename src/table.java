@@ -18,8 +18,8 @@ public class table
     {
         size = _size;
         list = new boolean[size][size];
-        for (int i = 0; i < _size; i++)
-            for (int j = 0; j < _size; j++)
+        for (int i = 0; i < size; i++)
+            for (int j = 0; j < size; j++)
                 list[i][j]=false;
     }
 
@@ -32,17 +32,17 @@ public class table
                 list[i][j] = ar[i][j];
     }
 
-    public void setSize(int size)
-    {
-        this.size = size;
-    }
+//    public void setSize(int size)
+//    {
+//        this.size = size;
+//    }
 
-    public void setTable(boolean ar[][])
-    {
-        for (int i = 0; i < size; ++i)
-            for (int j = 0; j < size; j++)
-                list[i][j]=ar[i][j];
-    }
+//    public void setTable(boolean ar[][])
+//    {
+//        for (int i = 0; i < size; ++i)
+//            for (int j = 0; j < size; j++)
+//                list[i][j]=ar[i][j];
+//    }
 
     public void setZnach(int k, int l, boolean f)
     {
